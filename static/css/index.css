@@ -1,0 +1,25 @@
+.small-tb-padding {
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+
+.large-tb-padding{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;    
+}
+
+
+/*   text   */
+.text-thin {
+    font-weight: 300 !important;
+}
+.text-spaced {
+    letter-spacing: 1px !important;
+}
+.text-lined {
+    line-height: 1.8 !important;
+}
+
+.opacity-mini {
+    opacity: 0.8 !important;
+}
