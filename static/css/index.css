@@ -2,6 +2,20 @@
     display: inline-block !important;
 }
 
+.margin-tb-03{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+
+.margin-t-2{
+    margin-top: 2em !important;
+}
+
+/*color*/
+.my-black{
+    color: black !important;
+}
+
 .padding-03 {
     padding: 0.3em !important;
 }
