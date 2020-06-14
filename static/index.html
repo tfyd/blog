@@ -10,15 +10,16 @@
 </head>
 <body>
     <!--导航-->
-    <nav class="ui inverted segment padding-tb-02">
+    <nav class="ui inverted segment padding-tb-02 m-shadow-small">
         <div class="ui container">
-            <div class = "ui inverted secondary menu">
+            <div class = "ui inverted secondary stackable menu">
                 <h2 class="ui teal header item">Tfyd</h2>
-                <a href="#" class="item"><i class="home icon"></i>>首页</a>
-                <a href="#" class="item"><i class="idea icon"></i>分类</a>
-                <a href="#" class="item"><i class="tags icon"></i>标签</a>
-                <a href="#" class="item"><i class="info icon"></i>关于我</a>
-                <div class="right item">
+                <a href="#" class="active m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i>归档</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+                <div class="m-item right item m-mobile-hide">
                     <div class="ui icon inverted transparent input">
                         <input type="text" placeholder="Search....">
                         <i class="search link icon"></i>
@@ -26,11 +27,14 @@
                 </div>
             </div>
         </div>
+        <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
     </nav>
     <!--内容-->
-    <div class="padding-tb-2">
+    <div class="m-container padding-tb-3">
         <div class="ui container">
-            <div class="ui grid">
+            <div class="ui stackable grid">
                 <!--left side-->
                 <div class="eleven wide column">
                     <!--header-->
@@ -47,7 +51,7 @@
                     <!--content-->
                     <div class="ui attached segment">
                         <div class="ui segment vertical padded padding-tb-2">
-                            <div class="ui grid">
+                            <div class="ui mobile reversed stackable grid">
                                 <div class="eleven wide column">
                                     <h3 class="ui header">天团与皇冠</h3>
                                     <p>他本是欠债八十万的流浪状元，睡在地下停车场里，活的像只野犬。
@@ -88,7 +92,48 @@
                             </div>
                         </div>
                         <div class="ui segment vertical padded padding-tb-2">
-                            <div class="ui grid">
+                            <div class="ui mobile reversed stackable grid">
+                                <div class="eleven wide column">
+                                    <h3 class="ui header">天团与皇冠</h3>
+                                    <p>他本是欠债八十万的流浪状元，睡在地下停车场里，活的像只野犬。
+                                        只因为那场天团招募计划，人生被彻底逆转。
+                                        ——从此背离黑暗，走向无尽的光明与灿烂。
+                                        
+                                        -男团&偶像养成文，前期偏重事业线。
+                                        -攻是裴如也。</p>
+                                    <div class="ui grid">
+                                        <div class="eleven wide column">
+                                            <div class="ui mini horizontal link list">
+                                                <div class="item">
+                                                    <img src="https://picsum.photos/100/100?random=1" alt="" class="ui avatar image">
+                                                    <div class="content">
+                                                        <a href="#" class="header">青律</a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <i class="calendar icon"></i>2020-04-06
+                                                </div>
+                                                <div class="item">
+                                                    <i class="eye icon"></i>123
+                                                </div>
+                                    
+                                            </div>
+                                        </div>
+                                        <div class="right aligned five wide column">
+                                            <a href="#" target = "_blank" class="ui teal basic label padding-03 text-thin">娱乐圈</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="five wide column">
+                                    <a href="#" target="_blank">
+                                        <img src="https://picsum.photos/800/450?random=1"alt="" class="ui rounded image">
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui segment vertical padded padding-tb-2">
+                            <div class="ui mobile reversed stackable grid">
                                 <div class="eleven wide column">
                                     <h3 class="ui header">天团与皇冠</h3>
                                     <p>他本是欠债八十万的流浪状元，睡在地下停车场里，活的像只野犬。
@@ -129,7 +174,7 @@
                             </div>
                         </div>
                         <div class="ui segment vertical padded padding-tb-2">
-                            <div class="ui grid">
+                            <div class="ui mobile reversed stackable grid">
                                 <div class="eleven wide column">
                                     <h3 class="ui header">天团与皇冠</h3>
                                     <p>他本是欠债八十万的流浪状元，睡在地下停车场里，活的像只野犬。
@@ -170,48 +215,7 @@
                             </div>
                         </div>
                         <div class="ui segment vertical padded padding-tb-2">
-                            <div class="ui grid">
-                                <div class="eleven wide column">
-                                    <h3 class="ui header">天团与皇冠</h3>
-                                    <p>他本是欠债八十万的流浪状元，睡在地下停车场里，活的像只野犬。
-                                        只因为那场天团招募计划，人生被彻底逆转。
-                                        ——从此背离黑暗，走向无尽的光明与灿烂。
-                                        
-                                        -男团&偶像养成文，前期偏重事业线。
-                                        -攻是裴如也。</p>
-                                    <div class="ui grid">
-                                        <div class="eleven wide column">
-                                            <div class="ui horizontal link list">
-                                                <div class="item">
-                                                    <img src="https://picsum.photos/100/100?random=1" alt="" class="ui avatar image">
-                                                    <div class="content">
-                                                        <a href="#" class="header">青律</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <i class="calendar icon"></i>2020-04-06
-                                                </div>
-                                                <div class="item">
-                                                    <i class="eye icon"></i>123
-                                                </div>
-                                    
-                                            </div>
-                                        </div>
-                                        <div class="right aligned five wide column">
-                                            <a href="#" target = "_blank" class="ui teal basic label padding-03 text-thin">娱乐圈</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="five wide column">
-                                    <a href="#" target="_blank">
-                                        <img src="https://picsum.photos/800/450?random=1"alt="" class="ui rounded image">
-                                    </a>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ui segment vertical padded padding-tb-2">
-                            <div class="ui grid">
+                            <div class="ui mobile reversed stackable grid">
                                 <div class="eleven wide column">
                                     <h3 class="ui header">天团与皇冠</h3>
                                     <p>他本是欠债八十万的流浪状元，睡在地下停车场里，活的像只野犬。
@@ -395,10 +399,12 @@
     <!--footer-->
     <footer class="ui inverted vertical segment padding-tb-5">
         <div class="ui center aligned container">
-            <div class="ui divided inverted grid">
+            <div class="ui inverted divided stackable grid">
                 <div class="three wide column">
-                    <div class="item">
-                        <img src="./image/watermelon.jpeg" class="ui rounded image" style="width: 100px">
+                    <div class="ui inverted link list">
+                        <div class="item">
+                            <img src="./image/watermelon.jpeg" class="ui rounded image" style="width: 100px">
+                        </div>
                     </div>
                 </div>
                     
@@ -422,16 +428,23 @@
                 </div>
                 <div class="five wide column">
                     <h4 class="ui inverted header text-thin text-spaced">Tfyd</h4>
-                    <p class="text-thin text-spaced opacity-mini">我从前风闻有你 而今亲眼见你</p>
-                    <p class="text-thin text-spaced opacity-mini">你是我的文艺复兴</p>
-                    <p class="text-thin text-spaced opacity-mini">风雪没有饮酒却醉了 在松林里不再发狂</p>
+                    <p class="text-thin text-spaced opacity-tiny">我从前风闻有你 而今亲眼见你</p>
+                    <p class="text-thin text-spaced opacity-tiny">你是我的文艺复兴</p>
+                    <p class="text-thin text-spaced opacity-tiny">风雪没有饮酒却醉了 在松林里不再发狂</p>
                 </div>
             </div>
             <div class="ui inverted section divider"></div>
-            <p class="text-thin text-spaced opacity-mini">Copyright ©2020-2021 Tfyd Designed by Tfyd</p>
+            <p class="text-thin text-spaced opacity-tiny">Copyright ©2020-2021 Tfyd Designed by Tfyd</p>
         </div>
     </footer>
-<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+
+<script>
+    $('.menu.toggle').click(function(){
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+</script>
 </body>
 </html>

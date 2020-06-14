@@ -1,3 +1,6 @@
+body {
+    background: url("../image/rip_jobs.png");
+}
 .inline-block{
     display: inline-block !important;
 }
@@ -6,10 +9,30 @@
     margin-top: 0.3em !important;
     margin-bottom: 0.3em !important;
 }
+.m-margin-tb-tiny{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;   
+}
+
 
 .margin-t-2{
     margin-top: 2em !important;
 }
+
+.m-container {
+    max-width: 72em !important;
+    margin: auto !important;
+}
+
+.m-container-small {
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
+.m-margin-bottom-small {
+    margin-bottom: 5em !important;
+}
+
 
 /*color*/
 .my-black{
@@ -44,6 +67,10 @@
     padding-bottom: 2em !important;    
 }
 
+.padded {
+    padding-left: 1.5em !important;
+    padding-right: 1.5em !important;
+}
 
 .padding-tb-3{
     padding-top: 3em !important;
@@ -58,9 +85,22 @@
     padding-bottom: 5em !important;    
 }
 
+.m-padded-lr-responsive {
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+/* position */
+.m-right-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 
 /*   text   */
+.m-text {
+    font-size: small;
+}
 .text-thin {
     font-weight: 300 !important;
 }
@@ -71,6 +111,45 @@
     line-height: 1.8 !important;
 }
 
+/* opacity */
 .opacity-mini {
     opacity: 0.8 !important;
+}
+.opacity-tiny {
+    opacity: 0.6 !important;
+}
+
+/*-- shadow --*/
+.m-shadow-small {
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
+
+/* mobile */
+.m-mobile-show {
+    display: none !important;
+}
+
+@media screen and (max-width: 768px){
+    .m-mobile-hide {
+        display: none !important;
+    }
+    .m-mobile-show {
+        display: block !important;
+    }
+    .m-padded-lr-responsive {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .m-mobile-lr-clear {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .m-mobile-wide {
+        width: 100% !important;
+    }
+    
 }
